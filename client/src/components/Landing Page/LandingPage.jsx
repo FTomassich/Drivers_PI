@@ -5,7 +5,7 @@ const LandingPage = () => {
   return (
     <div>
         
-        <h1>🏎️Drivers F1 App🏎️</h1>
+        <h1>🏁Drivers F1 App🏁</h1>
         <h3>created by Franco Tomassich 🚀</h3>
 
         <Link to= "/home">

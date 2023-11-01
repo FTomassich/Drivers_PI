@@ -8,8 +8,10 @@ switch(action.type){
     case 'GET_DRIVERS':
         return{
             ...state,
-            characters:action.payload
-        }
+            drivers:action.payload
+        };
+        default:
+            return state;
 }
 }
 
