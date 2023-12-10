@@ -30,7 +30,7 @@ module.exports = (sequelize) => {
         allowNull: false,
       },
       fecha_de_nacimiento: {
-        type: DataTypes.DATE,
+        type: DataTypes.STRING,
         allowNull: false,
       },
 //creo una prop para acceder más fácilmente a los creados en mi db

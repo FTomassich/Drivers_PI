@@ -1,0 +1,59 @@
+.card {
+    transition: transform 0.3s ease-in-out;
+    width: 400px; /* Ancho deseado */
+    height: 400px; 
+
+    /* margenes */
+   margin:30px;
+ 
+  
+
+
+    /* fondo */
+    background-color: rgba(245, 241, 5, 0.219);
+
+    /* texto */
+    
+    font: italic normal 400 16px Arial, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+
+     /* bordes  */
+     border-style:ridge;
+    border-width: 1px;
+    border-color: rgb(248, 247, 237); 
+    border-radius: 0.5rem;
+    
+
+  
+    size-adjust: center;
+
+   
+    box-shadow: #ffffff80 0 5px 15px;
+
+
+    &:hover {
+        background-color: rgba(224, 210, 13, 0.527); /* Cambiar a un color de fondo más claro */
+        color: #dcdcdc; /* Cambiar a un color de texto más claro */
+        transform: scale(1.04);
+    }
+
+}
+.imagen {
+    margin-top: 20px;
+   
+       border-radius: 60%;
+       border: solid;
+       border-color: black;
+       width: 250px; /* Puedes ajustar el ancho y alto según tus preferencias */
+       height: 250px;
+    
+   }
+
+   .nombre{
+
+    background-color: black;
+   }
+
+   .escuderias{
+    background-color: black;
+   }

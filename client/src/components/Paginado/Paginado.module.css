@@ -1,0 +1,35 @@
+.nav {
+  
+    background-color: #040505fb;
+    font-family:  'arial', cursive;
+    color: rgb(252, 252, 252);
+  }
+ .ul {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+   
+
+  }
+  
+
+  li {
+    
+    padding: 10px;
+    
+    
+  }
+
+
+  
+  li:hover {
+    background-color: #c20303;
+    
+  } 
+   
+  

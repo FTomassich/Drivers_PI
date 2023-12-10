@@ -1,0 +1,58 @@
+
+.formContainer {
+    width: 50vw;
+    height: 100vh;
+
+    display: flex;
+    
+    align-items: center;
+    background-color: rgba(245, 241, 5, 0.644);
+    border-radius: 5px;
+    border-style:hidden;
+
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.option {
+    display: flex;
+    flex-direction: column
+}
+
+.text{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:black;
+}
+.titulo{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.534);
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    justify-content: center;
+}
+
+.label {
+    display: flex;
+    font:  italic normal 400 16px;
+    color:black;
+    font-weight: bold;
+}
+
+.input {
+   display: flex;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: black
+}
+
+
+.button {
+    background-color: green;
+    border-collapse: collapse!important;
+}

@@ -1,0 +1,10 @@
+tunnels:
+  dev:
+    addr: 5173
+    proto: http
+  backend:
+    addr: 3001
+    proto: http
+  api:
+    addr: 5000
+    proto: http
